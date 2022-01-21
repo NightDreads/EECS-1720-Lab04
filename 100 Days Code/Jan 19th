@@ -1,0 +1,28 @@
+Method example:
+
+Public class example{
+    public static void main(String[] args){   
+        showMenu();    
+        showMenu("============\n" + "Choices, Choices\n" + "=============\n");    
+    }
+    
+    public static void showMenu(){
+        System.out.print("Please choose following options from the menu below:\n\n");
+		    System.out.println("\t[1] Connect to remotelab");
+		    System.out.println("\t[2] Test some colours");
+		    System.out.println("\t[3] Convert cartesian to polar coordinates");
+		    System.out.println("\t[4] Manipulate a string");
+		    System.out.println("\t[5] Try to guess a random number");
+    }
+    
+    public static void showMenu(String str){
+        System.out.print(str);
+		    System.out.print("Please choose following options from the menu below:\n\n");
+		    System.out.println("\t[1] Connect to remotelab");
+		    System.out.println("\t[2] Test some colours");
+		    System.out.println("\t[3] Convert cartesian to polar coordinates");
+		    System.out.println("\t[4] Manipulate a string");
+		    System.out.println("\t[5] Try to guess a random number");   
+    }
+
+}
