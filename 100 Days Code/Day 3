@@ -1,0 +1,13 @@
+int r, g, b, y;
+
+final double RED_FACTOR = 0.2980;
+final double GREEN_FACTOR = 0.5870;
+final double BLUE_FACTOR = 0.1140;
+
+r = 255;
+g = 255;
+b = 255;
+
+y = (int)(RED_FACTOR * r + GREEN_FACTOR * g + BLUE_FACTOR * b);
+
+System.out.println("The pixel of (r = " + r + ", g = " + g + ", b = " + b + ") has a luminance of (y = " + y + ")");
