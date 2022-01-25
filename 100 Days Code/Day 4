@@ -1,1 +1,41 @@
+Method Example:
+public static void main(String[] args){
 
+  int r = 255;
+  int g = 255;
+  int b = 255;
+  
+  int y = rgbToLuminance(r,g,b);
+  System.out.printf("The pixel (r = %d, g = %d, b = %d) has a luminance of (y = %d)\n", r,g,b,y);
+  
+  boolean isValid = isValidColor(r,g,b);
+	System.out.printf("Test (r = %d, g = %d, b = %d)  Valid color? %b\n", r,g,b,isValid);
+  
+  boolean isGray = isGrayTone(r,g,b);
+	System.out.printf("Test (r = %d, g = %d, b = %d)  Graytone? %b\n", r,g,b,isGray);
+
+}
+
+public static int rgbToLuminance(int r, int g, int b) {
+	
+		final double RED_FACTOR = 0.2989;
+		final double GREEN_FACTOR = 0.5870;
+		final double BLUE_FACTOR = 0.1140;
+		double y = r*RED_FACTOR + g*GREEN_FACTOR + b*BLUE_FACTOR;
+		int l = (int)y;
+		return l;		
+		
+}
+
+public static boolean isValidColor(int r, int g, int b) {		
+		
+		boolean isValidColor = ((r<256)&&(r>=0)&&(g<256)&&(g>=0)&&(b<256)&&(b>=0));
+		return isValidColor
+		
+	}
+  
+public static boolean isGrayTone(int r,int g,int b) {
+		
+		boolean isGrayTone = ((r == g)&&(g == b)&&(b == r));
+		return isGrayTone;
+	}
