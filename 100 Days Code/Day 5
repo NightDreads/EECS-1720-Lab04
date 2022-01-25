@@ -1,0 +1,63 @@
+Method Example-2
+public static void main(String[] args) {
+
+  int x1 = 3;
+  int y1 = 4;
+	int x2 = -13;
+	int y2 = 52;
+
+  System.out.printf("Distance between (%d,%d) and (%d,%d) = %.3f\n\n", x1,y1,x2,y2,distance(x1,y1,x2,y2));
+  
+  System.out.printf("Maximum of (%d, %d) = %d\n\n", x1,x2, (int) getMax(x1,x2));
+  
+  System.out.printf("magnitude, angle = (5, 60) ==>  x, y = (%.2f, %.2f)\n\n", getX(5,60), getY(5,60));
+  
+  System.out.printf("x, y = (2.50, 4.33) ==>  (%.2f, %.2f)\n\n", getRadius(2.500000,4.330127), getAngle(2.500000,4.330127));
+
+}
+
+public static double distance (int x1, int y1, int x2, int y2) {
+
+		double distance =((y2-y1)/(x2-x1));
+		return distance;
+		
+	}
+
+
+	public static double getMax(int x1, int x2) {
+
+		int getMax = Math.max(x1, x2);
+		return getMax;
+    
+	}
+	
+	
+	public static double getX(double radius, double theta) {
+		
+		double getX = radius* Math.cos(Math.toRadians(theta)) ;
+		return getX;
+		
+	}
+	
+	public static double getY(double radius, double theta) {
+		
+		double getY = radius* Math.sin(Math.toRadians(theta));
+		return getY;
+		
+	}
+	
+	
+	public static double getRadius(double x, double y) {
+  
+		double root = x*x + y*y;
+		double getRadius = Math.sqrt(root);
+		return getRadius;
+    
+	}
+	
+	public static double getAngle(double x, double y) {
+  
+		double getAngle = 	Math.toDegrees(Math.atan(y/x));
+		return getAngle;
+		
+	}
