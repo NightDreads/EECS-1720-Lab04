@@ -1,0 +1,31 @@
+HTML exercise
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zirui Zhou's first Page</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <h2>This is Zirui Zhou's webpage!</h2>
+        <p>To be honest, this is the first time that I get in touch with website making.</p>
+        <p>This is not my <i>FIRST </i> EECS course, I have taken <b>1710</b> and <b>1720</b> before, though
+        I could say that <mark>I have some foundations on Java language and logic</mark>,<br> therefore <del>I can pay less attention on this class
+        </del> I will treat this course more servious in order to get a <sup>higher</sup> mark!</p>
+        <hr>
+        <h2>Anyway, I'll show some of my hobbies.....</h2>
+        <ul>
+            <li>Biking
+            <li>Swimming
+            <li><del>Violent demolition</del> Try some stimulating video game
+            <li>Writing some fantasy novel(not published yet)
+        </ul>
+        <hr>
+        <h2>Here, I find some photo to match my hobbies.....</h2>
+        <img src="https://images.immediate.co.uk/production/volatile/sites/21/2020/08/What-to-wear-mountain-biking1-e267e72-scaled.jpg?quality=90&resize=620%2C413" alt="biking" title="Biking" width="300" height="300">
+        <img src="https://resources.fina.org/photo-resources/2020/08/20/84b7cf8e-630e-4285-a934-5fbe62d0efc5/JvwgFLCc.jpg?width=1200&height=630" alt="swimming" title="Swimming" width="300" height="300">
+        <img src="https://image.api.playstation.com/vulcan/img/cfn/113075mKp9jIHjGNn2CTT0ZHnfhGpclX55jYwxrq4oMIApHIVveFdQD66R0c6atSROC3gmROLU-m3rbj4XsdNInOpR0AIUSU.png" alt="FF14" title="Video Game" width="300" height="300">
+        <img src="https://images.gr-assets.com/books/1436732693l/13496.jpg" title="Writing novel(maybe someday I'll have a similar cover for my own published novel~)" alt="novel" width="300" height="300">
+        <p></p>
+    </body>
+</html>
