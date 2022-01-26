@@ -1,0 +1,20 @@
+HTML exercise of HEADING
+
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 2 - Reading Diary </title>
+  <link href="E:\EECS 1012 Labs\Lab02\diary_ex4.css" rel="stylesheet">    
+   <style>
+	 
+	 footer {
+		 margin: 3px;
+		 background-color: ivory;
+	 }
+	 body{
+		background-image: url("https://4.bp.blogspot.com/-5xNMmxVjWKg/UA5bNp_0jaI/AAAAAAAAB4s/QXcwBUUPPKw/s1600/Seamless+wall+white+paint+stucco+plaster+texture.jpg")
+	 }
+	   
+   </style>
+</head>
+
+//I've add in text style to the header this time
