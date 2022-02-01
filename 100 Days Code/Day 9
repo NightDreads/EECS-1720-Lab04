@@ -1,0 +1,31 @@
+JavaScript /div 
+
+<body>
+  <div class = "main">
+  <p>
+  xxxxxxxxxxxx
+  </p>
+  <div class = "partOne">
+  <h1>
+  xxxxxx
+  </h1>
+  </div>
+  </div>
+</body>
+
+// In .css file :
+
+.main {
+margin: 10px
+background: rgb(255, 124, 23)
+border: 5px solid white
+}
+
+.partOne{
+padding: 15px
+margin-left: 3px;
+margin-top: 10px;
+margin-right: 3px;
+margin-bottom: 3px;
+border-width: 5px;
+}
