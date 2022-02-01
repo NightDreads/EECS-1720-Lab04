@@ -1,0 +1,27 @@
+More Js ex:
+
+//In HTML:
+<script src="myLearningKit_Ex1.js"></script>
+<link rel="stylesheet" href="myLearningKit.css" type="text/css" >
+
+<header>
+<h1> My Computational Thinking Kit </h1>
+<nav>//nav element is a section of a page link to the other pages
+<button onclick="p01Func()">Problem01</button>
+</nav>
+</header>
+
+<input id="check1" type="checkbox"/> Design'
+<input id="check2" type="checkbox"/> JavaScript Solution
+<input id="check3" type="checkbox"/> Another Solution
+
+//In js:
+function p01Func() {
+
+  document.getElementById("check1").checked=false;
+  document.getElementById("check2").checked=false;
+  document.getElementById("check3").checked=false;
+
+}
+//This is a button exercise, <button> could generate a button box and when connecting to Js file, use function to generate an event
+ 
