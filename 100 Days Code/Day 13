@@ -1,0 +1,18 @@
+If statement in python:
+In java, if statement would be :
+
+if(a/b){
+  xxxx
+}
+else{
+  aaaa
+}
+
+It's obvious that the brackets limit the content and made easy to read, but in python,
+
+if a>b :
+  print(xxxx)
+else:
+  print(xxxx)
+  
+Sometimes when reading through the lines, I will get confused like is the if statement complete ? 
