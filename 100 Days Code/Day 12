@@ -1,0 +1,3 @@
+Python start:
+print("Hello World").
+*Python is not like Java, it does not need "System.out" to let system know that the user need to printout the value
