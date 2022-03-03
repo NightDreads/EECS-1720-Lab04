@@ -1,0 +1,52 @@
+public static void main(String[] args) throws InterruptedException
+	{
+		
+		Turtle bob = new Turtle();
+		drawLogo(bob,0,-200);
+		TimeUnit.MILLISECONDS.sleep(1000);
+		bob.clear();
+		bob.home();
+		bob.clear();
+		bob.penColor("black");
+		bob.penSize(7);
+		bob.face(25);
+		bob.forward(30);
+		bob.face(270);
+		bob.forward(70);
+		bob.face(25);
+		bob.forward(30);
+		bob.face(90);
+		bob.forward(100);
+		bob.face(205);
+		bob.forward(60);
+		bob.backward(60);
+		bob.face(155);
+		bob.forward(30);
+		bob.face(205);
+		bob.forward(30);
+		bob.face(155);
+		bob.forward(30);
+		bob.face(205);
+		bob.forward(30);
+		bob.face(335);
+		bob.forward(60);
+		bob.backward(60);
+		bob.face(270);
+		bob.forward(100);
+		bob.face(335);
+		bob.forward(30);
+		bob.face(90);
+		bob.forward(70);
+		bob.face(335);
+		bob.home();
+		bob.face(270);
+		bob.forward(45);
+		bob.face(205);
+		bob.forward(30);
+		bob.backward(30);
+		bob.face(335);
+		bob.forward(30);
+		TimeUnit.MILLISECONDS.sleep(1000);
+
+		
+	}
