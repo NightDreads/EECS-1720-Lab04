@@ -1,0 +1,33 @@
+Examples of different format of outputting through system.out.print
+
+public class Output
+{	
+	public static void main(String[] args) 
+	{	
+		String sentence = "A rolling stone gathers no moss or fuzz or anything!";
+		System.out.println("String:"+" \t"+"\t"+sentence);
+		System.out.println("Length:"+" \t"+"\t"+sentence.length());
+		System.out.println("First char:"+" \t"+"\t"+sentence.charAt(0));
+		System.out.println("Last char:"+" \t"+"\t"+sentence.charAt(sentence.length()-1));
+		System.out.println("First half:"+" \t"+"\t"+sentence.substring(0, sentence.length()/2));
+		System.out.println("Last half:"+" \t"+"\t"+sentence.substring(sentence.length()/2, sentence.length()));
+		System.out.println("Remove words:"+" \t"+"\t"+sentence.substring(sentence.indexOf(" "), sentence.lastIndexOf(" ")));
+		System.out.println("First words:"+" \t"+"\t"+sentence.substring(0, sentence.indexOf(" ")));
+		System.out.println("Number of words:"+" \t"+sentence.split(" ").length);
+		halveString("Hello World");
+		
+	}
+	
+	public static void halveString(String str){
+		String halve = "Hello World";
+		System.out.printf("Length = " + halve.length() + " \n" + "FristHalf = " + "\"" + halve.substring(0, 5)  + "\"\n" + "LastHalf = " + "\"" + halve.substring(6, 11) + "\"" );
+
+	}
+	
+	
+	    // halveString method has not been added yet - you need to complete it below:
+	    
+	
+	
+
+}
