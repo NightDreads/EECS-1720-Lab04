@@ -1,0 +1,29 @@
+Turtle draw in Java 03
+
+public class turtle{
+  public static void main(String[] args) {
+  
+    Turtle bob = new Turtle();
+    drawAxes(bob);
+    drawTriangle(bob,50);
+    drawSquare(bob,50);
+    
+  }
+  
+  public static void drawSquare(Turtle turtle, int sideLength) {
+		
+		turtle.penColor("red");
+		turtle.goTo(50,50);
+		turtle.down();
+		turtle.face(90);
+		turtle.forward(sideLength);
+		turtle.face(0);
+		turtle.forward(sideLength);
+		turtle.face(270);
+		turtle.forward(sideLength);
+		turtle.face(180);
+		turtle.forward(sideLength);
+		
+	}
+  
+}
