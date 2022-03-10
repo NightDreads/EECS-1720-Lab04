@@ -1,4 +1,4 @@
-Light Function 7
+Light Function 6
 
 function oFF(){
     var xf = document.getElementById("light");
