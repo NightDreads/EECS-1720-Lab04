@@ -1,0 +1,8 @@
+Light function 
+
+function onA(){
+ var x1 = document.getElementById("light");
+    x1.src="images/light/light_1.jpg"; 
+ var x2 = document.getElementById("message");
+ x2.innerHTML = "light 1 is on";
+}
