@@ -1,0 +1,8 @@
+Light Function 3
+
+function onC(){
+    var x1 = document.getElementById("light");
+    x1.src="images/light/light_3.jpg";
+    var x2 = document.getElementById("message");
+ x2.innerHTML = "light 3 is on";
+}
