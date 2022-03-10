@@ -1,4 +1,4 @@
-Light Funciton 5
+Light Funciton 4
 
 function onD(){
     var x1 = document.getElementById("light");
