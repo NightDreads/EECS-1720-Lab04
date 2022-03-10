@@ -1,0 +1,16 @@
+<body>
+
+<p id="paragraph">   Hi, 1012
+</p>
+<p><button id="btn-greet" >greet</button> </p>
+<p><button id="btn-changeText">changeText</button> </p>
+<p><button id="btn-changeColor">changeColor</button> </p>
+<p><button id="btn-changeSize">changeSize</button> </p>
+<p><button id="btn-italic">italic</button> </p>
+<p><button id="btn-bold">bold</button> </p>
+<p><button id="btn-underline">underline</button> </p>
+<p><button id="btn-background">background</button> </p>
+<p><button id="btn-changeImage">change image</button> </p>
+ 
+
+<img id="image" src="volleyball.jpg" width="311" height="162" alt="">
