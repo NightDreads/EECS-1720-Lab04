@@ -1,0 +1,8 @@
+Light Funciton 5
+
+function onD(){
+    var x1 = document.getElementById("light");
+    x1.src="images/light/light_4.jpg";
+    var x2 = document.getElementById("message");
+ x2.innerHTML = "light 4 is on";
+}
