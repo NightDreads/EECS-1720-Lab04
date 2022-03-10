@@ -1,0 +1,23 @@
+css style  
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title> Task 1 </title>
+  <meta charset="utf-8">
+  <script src="lab9jQ.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+  #paragraph {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: silver;
+    border: 1px dashed black;
+    width: 50%; /* you can adjust this on Firefox if needed */
+    height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  </style>
+</head>
