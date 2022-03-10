@@ -1,0 +1,8 @@
+Light Function
+
+function oFF(){
+    var xf = document.getElementById("light");
+    xf.src="images/light/light_0.jpg"; 
+    var x2 = document.getElementById("message");
+ x2.innerHTML = "light is off";
+}
