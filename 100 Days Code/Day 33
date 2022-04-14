@@ -1,0 +1,12 @@
+Array methods in Javascript
+//
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+Output result is "Banana,Orange,Apple,Mango"
+//
+
+//
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
+Output result is "Banana * Orange * Apple * Mango"
+//
