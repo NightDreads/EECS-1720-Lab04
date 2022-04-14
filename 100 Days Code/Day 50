@@ -1,0 +1,14 @@
+Interesting facts of "+" in JavaScript:
+
+let x = 10;
+let y = 20;
+let z = "10";
+let a = "20";
+let b = x + y;
+let c = z + a;
+output a and z....
+Output result is :
+30
+1020
+
+Because in JavaScript using "+" for both adding and concatenation.
