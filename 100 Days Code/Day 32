@@ -1,0 +1,13 @@
+HTML arrays
+
+1:
+const numbers = ["1","2","3"];
+2:
+let numbers1 = "1";
+let numbers2 = "2";
+let numbers3 = "3";
+3:
+const numbers = [];
+numbers[0] = "1";
+numbers[1] = "2";
+numbers[2] = "3";
