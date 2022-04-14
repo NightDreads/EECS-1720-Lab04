@@ -1,0 +1,13 @@
+HTML prototype example
+<script>
+function Character(gender,level,skills,weapon){
+  this.gender = gender;
+  this.level = level;
+  this.skills = skill[];
+  this.weapon = weapon;
+}
+Character.prototype.friend = "John";
+const skills = ["throw","glide",'defense']
+const Arthur = new Character("Male","10",skill[],"iron sword");
+document.getElementById("xxx").innerHTML ="One friend of Arthur is " + Arthur.friend;
+</script>
