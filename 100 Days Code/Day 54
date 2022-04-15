@@ -1,0 +1,30 @@
+The toFixed() method in JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Number Methods</h2>
+
+<p>The toFixed() method rounds a number to a given number of digits.</p>
+<p>For working with money, toFixed(2) is perfect.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 9.656;
+document.getElementById("demo").innerHTML =
+  x.toFixed(0) + "<br>" +
+  x.toFixed(2) + "<br>" +
+  x.toFixed(4) + "<br>" +
+  x.toFixed(6);
+</script>
+
+</body>
+</html>
+
+This is just the rounding to specific number of digit for a float number.
+So the output will be :
+10
+9.66
+9.6560
+9.656000
