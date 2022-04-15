@@ -1,0 +1,23 @@
+subString() method in JavaScript:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The substring() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substring(7,13);
+</script>
+
+</body>
+</html>
+
+output:
+Banana
+
+As the example's result, subString is much similar to slice, but subString can not accept negative value like subString(-12, -7), while slice(-12, -7) will be accepted. 
