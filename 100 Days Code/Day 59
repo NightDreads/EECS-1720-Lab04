@@ -1,0 +1,30 @@
+parseFloat():
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Global Methods</h2>
+
+<p>The parseFloat() method converts strings to numbers:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  parseFloat("10") + "<br>" +
+  parseFloat("10.33") + "<br>" +
+  parseFloat("10 6") + "<br>" +  
+  parseFloat("10 years") + "<br>" +
+  parseFloat("years 10");    
+</script>
+
+</body>
+</html>
+
+The output is 
+10
+10.33
+10
+10
+NaN
+This method returns any integer into integer and any decimal into decimal, and again can not recognize any non-number
