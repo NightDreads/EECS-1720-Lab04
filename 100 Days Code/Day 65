@@ -1,0 +1,25 @@
+JavaScript String method
+slice method in string
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(7,13); 
+</script>
+
+</body>
+</html>
+
+Output will be :
+Banana
+
+Similar with the number slice, but the string count one char space as one part
